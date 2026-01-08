@@ -102,5 +102,6 @@ if __name__ == "__main__":
     lr_model= LinearRegressionModel()
     out= train_evaluate_save(lr_model)
     print("Training and evaluation results:")
+    print("------------------------------")
     print(out)
 
